@@ -73,7 +73,6 @@ describe('Smartlook', function() {
           test_var1: 'val',
           test_var2: 42,
           test_var3: true,
-          test_var4: ['abc'],
           value: 150,
           currency: 'usd',
           product: 'Product Description'
@@ -86,7 +85,6 @@ describe('Smartlook', function() {
           test_var1: 'val',
           test_var2: 42,
           test_var3: true,
-          test_var4: ['abc'],
           value: 150,
           currency: 'usd',
           product: 'Product Description'
