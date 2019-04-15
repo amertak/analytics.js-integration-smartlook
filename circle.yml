@@ -2,7 +2,7 @@ version: 2
 jobs:
   test:
     docker:
-      - image: circleci/node:4-browsers
+      - image: circleci/node:10-browsers
         environment:
           NPM_CONFIG_PROGRESS: "false"
           NPM_CONFIG_SPIN: "false"
@@ -27,7 +27,7 @@ jobs:
           command: ./node_modules/.bin/codecov
   publish:
     docker:
-      - image: circleci/node:4-browsers
+      - image: circleci/node:10-browsers
     steps:
       - checkout
       - run:
