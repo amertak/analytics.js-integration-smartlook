@@ -8,5 +8,5 @@ Released under the [MIT license](LICENSE).
 
 
 [Analytics.js]: https://segment.com/docs/libraries/analytics.js/
-[ci-link]: https://circleci.com/gh/segment-integrations/analytics.js-integration-smartlook
-[ci-badge]: https://circleci.com/gh/segment-integrations/analytics.js-integration-smartlook.svg?style=svg
+[ci-link]: https://circleci.com/gh/amertak/analytics.js-integration-smartlook
+[ci-badge]: https://circleci.com/gh/amertak/analytics.js-integration-smartlook.svg?style=svg
