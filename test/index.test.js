@@ -26,6 +26,9 @@ describe('Smartlook', function() {
     analytics.reset();
     smartlook.reset();
     sandbox();
+
+    // Remove stub on window object
+    delete window.smartlook;
   });
 
   it('should have the right settings', function() {
